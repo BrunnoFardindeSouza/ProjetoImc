@@ -73,6 +73,7 @@ div.inputs input{
     margin-top: 2px;
     height: 91%;
     border: 0;
+    border-radius: 3px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     transition: transform 1s;
@@ -184,6 +185,7 @@ th,tr,td{
 
     }
     div.inputs input:focus{
+        border-radius: 10px;
         transform: scale(1.2);
     }
 }
