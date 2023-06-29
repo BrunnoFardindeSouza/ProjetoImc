@@ -156,7 +156,7 @@ th,tr,td{
 }
 @media screen and (min-width:546px){
     section#imc{
-        height: 360px;
+        height: 400px;
     }
     section#imagem{
         background: url(../img/balança-2.jpg) no-repeat center;
@@ -204,5 +204,21 @@ th,tr,td{
     }
     .ação{
         margin-top: 24%;
+    }
+    section#imagem{
+        background: url(../img/balança-2.jpg) no-repeat center;
+        background-size: cover;
+        height: 100%;
+        width: 50%;
+        float: right;
+        animation-timing-function: ease;
+    }
+    section#formulário{
+        padding: 0px 20px 0px 20px;
+        margin-top: 50px;
+        height: 100%;
+        width: 50%;
+        float: left;
+        animation-timing-function: ease;
     }
 }
